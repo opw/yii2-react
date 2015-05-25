@@ -3,7 +3,7 @@
     "description": "The React.js library extension for the Yii framework",
     "keywords": ["yii2", "react"],
     "type": "yii2-extension",
-    "license": "BSD-3-Clause",
+    "license": "MIT License",
     "support": {
         "issues": "https://github.com/opw/yii2-react/issues",
         "wiki": "https://github.com/opw/yii2-react/wiki",
