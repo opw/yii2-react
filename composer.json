@@ -1,0 +1,28 @@
+{
+    "name": "opw/yii2-react",
+    "description": "The React.js library extension for the Yii framework",
+    "keywords": ["yii2", "react"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/opw/yii2-react/issues",
+        "wiki": "https://github.com/opw/yii2-react/wiki",
+        "source": "https://github.com/opw/yii2-react.git"
+    },
+    "authors": [
+        {
+            "name": "Paulo Santiago",
+            "email": "paulo@mobilizy.com.br",
+            "homepage": "http://www.mobilizy.com.br/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/react": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "opw\\react\\": ""
+        }
+    }
+}
