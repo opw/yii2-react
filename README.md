@@ -41,14 +41,12 @@ Usage
 Add to assets/AppAsset.php file:
 
 ~~~
-[php]
 'opw\react\JSXTransformerAsset', // optional
 'opw\react\ReactAsset'
 ~~~
 
 For don't use JSXTransformer, use [react-tools](https://facebook.github.io/react/docs/getting-started.html#offline-transform) and add your JSX compiled files in AppAsset.php:
 ~~~
-[php]
 public $js = [
     'build/HelloWorld.js'
 ];
